@@ -1,0 +1,13 @@
+version: "1"
+
+services:
+
+     web-api:
+         image: testeaec/aec-teste-api:latest
+         container_name: aec-teste-api
+         build: 
+            dockerfile: ./AeC_Teste.API/Dockerfile
+         restart: always
+         environment:
+            - ASPNETCORE_ENVIRONMENT=Production
+            - ASPNETCORE_URLS=http://*:5001

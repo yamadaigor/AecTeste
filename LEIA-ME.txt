@@ -1,0 +1,24 @@
+Primeiro gostaria de agradecer pela oportunidade em participar do processo seletivo.
+
+Fiz a maioria das atividades de acordo com o requisito, mas a única pendência foi
+a criação do container. Eu fiz o que entendi ser so certo, pois eu não tenho experiência com Docker. 
+O container não subia junto com o banco de dados, talvez foi algum detalhe que eu não enxerguei. 
+Devido ao tempo e à outras atividades que eu tive que fazer ao longo do final de semana, não concluí esta parte. 
+
+O docker-compose está na pasta raiz e os arquivos Dockerfile estão nas pastas de acordo com o tipo
+de imagem. Tentei subir as duas no mesmo Docker compose, mas não deu certo, pois não concluia 
+o container do banco de dados. 
+
+Deixei como alternativa três arquivos "docker-compose" para serem rodados (um com a base de dados
+e a api, outro somente com a api e outro somente com banco de dados). 
+
+O script de criação da base de dados está na pasta sql(na raiz).
+Tinha visto um exemplo na internet sobre criar a imagem e criar o banco de dados usando algumas instruções para 
+rodar o script, mas esse também não deu certo. 
+
+Enfim, fiz o que o melhor que eu pude no desenvolvimento aplicação.Caso queira rodar localmente mesmo só mudar 
+para o ambiente de dev, pois está apontando para o banco de dados local, depois é só rodar o script para criação da base de dados. 
+
+Agradeço mais uma vez a oportunidade. 
+
+Abraços
